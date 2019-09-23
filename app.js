@@ -5,7 +5,7 @@ angular.module('techApp', [])
     app.menu = [
       {text:'Sobre nós', active: true, id:1},
       {text:'Projetos', active: false, id: 2},
-      {text:'Clientes', active: false, id: 3}
+      {text:'Contato', active: false, id: 3}
     ]; 
     app.changeTab = function(id){
         app.tab = id;

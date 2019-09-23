@@ -35,8 +35,8 @@
 					<nav id="nav">
 						<ul class="links">
 
-							<li ng-repeat="menu in ctrl.menu">
-							<a ng-click="ctrl.changeTab(menu.id)" ng-class="{'active' : ctrl.tab=={{menu.id}} }">{{menu.text}}</a></li>
+							<li ng-repeat="menu in ctrl.menu" ng-class="{'active' : ctrl.tab=={{menu.id}} }"> 
+							<a ng-click="ctrl.changeTab(menu.id)" >{{menu.text}}</a></li>
 							<!-- <li class="active"><a href="generic.html">Projetos</a></li>
 							<li><a href="elements.html">Cursos</a></li>  -->
 						</ul>
@@ -51,8 +51,8 @@
 					<div id="main" ng-show="ctrl.tab == 1">
 						<article class="post featured">
 								<header class="major">
-									<span class="date">Desenvolvendo soluções desde 2013</span>
-									<h2><a href="#">Tech</a></h2>
+									
+									<h2>Tech</h2>
 									<p>
 										A tech soluções energéticas começou suas funções no mercado desde 2013, atuando na área de energia elétrica, atuando com projetos, consultoria e execução.
 										
@@ -61,16 +61,16 @@
 										Nossa empresa também é especializada em ministrar cursos de instalador solar fotovoltaico, especializando vários alunos para trabalhar no ramo com a energia solar.
 									</p>
 								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<a class="image main"><img src="images/pic01.jpg" alt="" /></a>
 								
 						</article>						
 						<section class="posts">
 								<article>
 									<header>										
-										<h2><a href="#">O Futuro<br />
+										<h2><a >O Futuro<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<a  class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 									<p>
 											Energia solar é produzir energia com responsabilidade e respeito ao meio ambiente
 											A energia solar é a fonte de eletricidade cujo uso mais cresce no Brasil. Não só por ser limpa e atrativa para investimentos, mas também por permitir que cada consumidor produza sua própria energia e chegue a reduzir seus custos em até 90%. 
@@ -81,10 +81,10 @@
 								</article>
 								<article>
 									<header>										
-										<h2><a href="#">Regulamentação<br />
+										<h2><a>Regulamentação<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<a class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 									<p>
 											Regulamentada em 2012 pela Agência Nacional de Energia Elétrica (Aneel), a possibilidade de geração distribuída, em que a energia gerada e não consumida nas pontas do sistema vai para a rede elétrica, gerando créditos para quem produziu, vem trazendo mais e mais famílias e empresas para um modelo mais sustentável de consumo energético.
 									</p>
@@ -93,12 +93,54 @@
 									</ul> -->
 								</article>								
 						</section>
-					
 					</div>
+					<!-- Projetos -->
+					<div id="main" ng-show="ctrl.tab == 2">											
+						<section class="posts">
+								<article>
+									<header>										
+										<h2><a href="#">Sebrae MT<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<p>
+											No CSS e do Sebrae MT, foram implantadas duas microusinas de geração solar fotovoltaica tornando 100% autosuficiente em energia.
+									</p>
+									<!-- <ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul> -->
+								</article>															
+						</section>
+					</div>
+					<!-- Contato -->
+					<div id="main" ng-show="ctrl.tab == 3">											
+							<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="3"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+										</ul>
+									</form>
+								</section>
+					</div>
+
+
 					<div id="copyright">
 						<ul><li>Design: <a href="https://www.custodio.dev" target="_blank">Custodio.dev</a></li></ul>
 					</div>
-
 			</div>
 
 		<!-- Scripts -->
