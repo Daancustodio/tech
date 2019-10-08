@@ -127,7 +127,7 @@
                  <Image  
                             width='100%'                         
                             height="auto"
-                            src="webapp/img/images/flayer.jpg"
+                            src="webapp/img/images/manha.jpg"
                             densityAware="true" ></Image>
             </VBox>
            
