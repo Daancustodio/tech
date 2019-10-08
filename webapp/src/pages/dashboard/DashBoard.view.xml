@@ -85,7 +85,7 @@
                     </f:header>
                     <f:content>
                         <VBox
-							 alignItems="Center"
+							alignItems="Center"
 							justifyContent="SpaceBetween">
                             <Title wrapping="true" class="sapUiMediumMargin"   text="O Curso de Instalador de Energia Solar - Sistema Fotovoltaico tem como objetivo formar e especializar profissionais para atuar no mercado de energia solar." />
                         </VBox>
