@@ -15,7 +15,9 @@
 	-ms-filter: blur(2px);
 	filter: blur(2px);
 }
-
+iframe, object, embed {
+    max-width: 100%;
+}
 .img-logo-topo{
 	/* filter: invert(99%);
 	filter: brightness(3.5); */

@@ -93,11 +93,12 @@
                 </f:Card>
             </FlexBox>
             <VBox 
+                
 				class="bg-secondary sapUiContentPadding" 
 				justifyContent="Center" 
 				alignItems="Center">
                 <tnt:InfoLabel colorScheme="1" class="sapUiSmallMargin" text="a energia solar." />
-                <html:iframe width="727" height="409" src="https://www.youtube.com/embed/IeVbIDuItfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></html:iframe>
+                <html:iframe width="768em" height="360em" src="https://www.youtube.com/embed/IeVbIDuItfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></html:iframe>
             </VBox>
            
                 <VBox 
