@@ -8,11 +8,11 @@
 		<tnt:ToolPage id="tooApplPage" sideExpanded="false">
 	<tnt:header>
 	<tnt:ToolHeader class="toolHeader">
-		<Button id="sideNavigationToggleButton"   enabled="false"   icon="sap-icon://menu2" type="Transparent"  press="onSideNavButtonPress" >
+		<!-- <Button id="sideNavigationToggleButton"   enabled="false"   icon="sap-icon://menu2" type="Transparent"  press="onSideNavButtonPress" >
 			<layoutData>
 				<OverflowToolbarLayoutData priority="NeverOverflow" />
 			</layoutData>
-		</Button>
+		</Button> -->
 
 		<Image
 			class="img-logo-topo"
