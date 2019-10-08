@@ -17,8 +17,8 @@
 }
 
 .img-logo-topo{
-	filter: invert(99%);
-	filter: brightness(3.5);
+	/* filter: invert(99%);
+	filter: brightness(3.5); */
 	max-height: 1.5em;
 }
 .box-top{

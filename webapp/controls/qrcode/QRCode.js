@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Control) {
 	"use strict";
 
-	return Control.extend("InventSite.controls.qrcode.QRCode", {
+	return Control.extend("TechSite.controls.qrcode.QRCode", {
 
 		metadata: {
 			properties: {
@@ -17,7 +17,7 @@ sap.ui.define([
 		},
 
 		init: function () {
-			$.sap.require("InventSite/controls/qrcode/davidshimjs-qrcodejs-04f46c6/qrcode")
+			$.sap.require("TechSite/controls/qrcode/davidshimjs-qrcodejs-04f46c6/qrcode")
 		},
 
 		onAfterRendering: function () {

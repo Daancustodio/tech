@@ -1,17 +1,17 @@
 sap.ui.define(
 	[
-		"InventSite/src/app/BaseController",
+		"TechSite/src/app/BaseController",
 		"sap/m/MessageToast",
-		"InventSite/model/RestModel",
+		"TechSite/model/RestModel",
 	],
 	function (BaseController, MessageToast, RestModel) {
 	"use strict";
 
-	return BaseController.extend("InventSite.src.pages.security.Login", {
+	return BaseController.extend("TechSite.src.pages.security.Login", {
 		onInit : function(){
 
 			var that = this;
-			this.byId("InventSiteLoginPage").attachBrowserEvent("keypress", oEvent =>{
+			this.byId("TechSiteLoginPage").attachBrowserEvent("keypress", oEvent =>{
 				if(oEvent.keyCode != jQuery.sap.KeyCodes.ENTER) return;
 
 				that.onLogin();

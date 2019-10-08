@@ -1,5 +1,5 @@
 sap.ui.define([
-  "InventSite/src/app/BaseController",
+  "TechSite/src/app/BaseController",
 ], function (BaseController) {
 	"use strict";
   return {

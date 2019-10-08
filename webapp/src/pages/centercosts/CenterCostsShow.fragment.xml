@@ -1,6 +1,6 @@
 <core:FragmentDefinition
 	xmlns="sap.m"
-    xmlns:cOne="InventSite.controls"
+    xmlns:cOne="TechSite.controls"
 	xmlns:core="sap.ui.core">
     <Label
         required="{path:'Dimensions>/0/Dimension/DimActive', formatter:'.fmt.dimActive'}"

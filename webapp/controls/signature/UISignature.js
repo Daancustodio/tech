@@ -1,10 +1,10 @@
 
 sap.ui.define([
     "sap/ui/core/Control",
-    "InventSite/controls/signature/signature_pad"
+    "TechSite/controls/signature/signature_pad"
 ], function (Control, SignaturePadjs) {
 	"use strict";
-    return Control.extend("InventSite.controls.signature.UISignature", {
+    return Control.extend("TechSite.controls.signature.UISignature", {
         signaturePad: null,
         metadata: {
             properties: {

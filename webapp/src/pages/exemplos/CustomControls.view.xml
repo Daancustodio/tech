@@ -3,12 +3,12 @@
     xmlns:l="sap.ui.layout"
     xmlns="sap.m"
 	  height="100%"
-    xmlns:sing="InventSite.controls.signature"
-    xmlns:qr="InventSite.controls.qrcode"
-    xmlns:custom="InventSite.controls"
-    xmlns:quillEditor="InventSite.controls.quill"
+    xmlns:sing="TechSite.controls.signature"
+    xmlns:qr="TechSite.controls.qrcode"
+    xmlns:custom="TechSite.controls"
+    xmlns:quillEditor="TechSite.controls.quill"
     xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
-	  controllerName="InventSite.src.pages.exemplos.CustomControls">
+	  controllerName="TechSite.src.pages.exemplos.CustomControls">
     <Page title="{i18n>Commom.ControlTest}"  >
         <content>
             <Panel
@@ -75,7 +75,7 @@
                         direction="Column"
                         justifyContent="SpaceBetween">
                         <items>
-                            <core:Fragment fragmentName="InventSite.src.pages.centercosts.CenterCostsShow" type="XML">
+                            <core:Fragment fragmentName="TechSite.src.pages.centercosts.CenterCostsShow" type="XML">
                             </core:Fragment>
                         </items>
                     </FlexBox>

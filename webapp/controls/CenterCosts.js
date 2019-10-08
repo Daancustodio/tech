@@ -1,9 +1,9 @@
 sap.ui.define([
     "sap/ui/core/Control",
-    "InventSite/model/formatter"
+    "TechSite/model/formatter"
 ], function (Control, formatter) {
 	"use strict";
-	return Control.extend("InventSite.controls.CenterCosts", {
+	return Control.extend("TechSite.controls.CenterCosts", {
 		metadata : {
             properties : {
 				centerCost: 	{type : "object", defaultValue :{}},

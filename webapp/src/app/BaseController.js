@@ -1,11 +1,11 @@
 sap.ui.define([
 		"sap/ui/core/mvc/Controller",
-		"InventSite/src/pages/exceptions/Exeption.controller",
-		"InventSite/model/formatter",
+		"TechSite/src/pages/exceptions/Exeption.controller",
+		"TechSite/model/formatter",
 	], function (Controller, Exeption, formatter) {
 	"use strict";
 
-	return Controller.extend("InventSite.src.app.BaseController", {
+	return Controller.extend("TechSite.src.app.BaseController", {
     fmt: formatter,
     USER_SESSION_PATH: "currentUser",
 		getRouter : function () {

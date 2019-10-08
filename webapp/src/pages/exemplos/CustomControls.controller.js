@@ -1,14 +1,14 @@
 sap.ui.define(
   [
-    "InventSite/src/app/BaseController",
+    "TechSite/src/app/BaseController",
     "sap/m/MessageToast",
-    'InventSite/model/RestModel',
+    'TechSite/model/RestModel',
     'sap/ui/unified/ColorPickerPopover',
   ],
   function (BaseController, MessageToast, RestModel, ColorPickerPopover) {
     "use strict";
 
-    return BaseController.extend("InventSite.src.pages.exemplos.CustomControls", {
+    return BaseController.extend("TechSite.src.pages.exemplos.CustomControls", {
 
       onInit: function () {
         this.setModel(new RestModel(), "signature");
@@ -99,7 +99,7 @@ sap.ui.define(
         let model = this.getModel("Dimensions");
 
         if (!this._oDialogDimensions) {
-          this._oDialogDimensions = sap.ui.xmlfragment("InventSite.view.fragments.ChooseFromModal", this);
+          this._oDialogDimensions = sap.ui.xmlfragment("TechSite.view.fragments.ChooseFromModal", this);
           this._oDialogDimensions.addStyleClass(this.getOwnerComponent().getContentDensityClass());
         }
 

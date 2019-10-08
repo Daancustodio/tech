@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 				options: {
 					resources: {
 						cwd: 'webapp',
-						prefix: 'InventSite',
+						prefix: 'TechSite',
 						src: [
 							'**/*.js',
 							'**/*.fragment.html',

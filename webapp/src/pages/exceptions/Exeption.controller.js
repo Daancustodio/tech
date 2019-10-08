@@ -6,7 +6,7 @@ sap.ui.define([
 	"use strict";
 
 
-	return Controller.extend("InventSite.src.pages.exceptions.Exeption", {
+	return Controller.extend("TechSite.src.pages.exceptions.Exeption", {
 
 		show: function (exeption) {
 			var that = this;

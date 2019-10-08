@@ -1,13 +1,13 @@
 sap.ui.define(
 	[
-	"InventSite/src/app/BaseController",
-  "InventSite/model/RestModel",
+	"TechSite/src/app/BaseController",
+  "TechSite/model/RestModel",
   "sap/ui/model/Filter",
 	],
 	function (BaseController, RestModel, Filter) {
 		"use strict";
 
-		return BaseController.extend("InventSite.src.pages.languages.Languages", {
+		return BaseController.extend("TechSite.src.pages.languages.Languages", {
 			onInit: function () {
 				this
 					.getRouter()

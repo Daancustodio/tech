@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="InventSite.src.pages.languages.Languages"
+	controllerName="TechSite.src.pages.languages.Languages"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m"
 	xmlns:l="sap.ui.layout"

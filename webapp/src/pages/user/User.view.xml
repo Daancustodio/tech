@@ -4,11 +4,11 @@
 	xmlns="sap.m"
 	height="100%"
 	xmlns:tnt="sap.tnt"
-	xmlns:sing="InventSite.controls.signature"
-	xmlns:custom="InventSite.controls"
-	xmlns:quillEditor="InventSite.controls.quill"
+	xmlns:sing="TechSite.controls.signature"
+	xmlns:custom="TechSite.controls"
+	xmlns:quillEditor="TechSite.controls.quill"
 	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
-	controllerName="InventSite.src.pages.user.User">
+	controllerName="TechSite.src.pages.user.User">
 
 	<Page title="{i18n>App.DasboardTitle}" >
 		<content>

@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Control) {
 	"use strict";
 
-	return Control.extend("InventSite.controls.quill.QuillEditor", {
+	return Control.extend("TechSite.controls.quill.QuillEditor", {
 
 		metadata: {
 			properties: {
@@ -19,7 +19,7 @@ sap.ui.define([
 
 			$.sap.includeStyleSheet("webapp/controls/quill/quill.snow.css");
 			$.sap.includeStyleSheet("webapp/controls/quill/quill.bubble.css");
-			$.sap.require("InventSite/controls/quill/quill")
+			$.sap.require("TechSite/controls/quill/quill")
 		},
 
 		onAfterRendering: function () {

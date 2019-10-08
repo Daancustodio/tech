@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="InventSite.src.pages.settings.Edit"
+	controllerName="TechSite.src.pages.settings.Edit"
 	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:l="sap.ui.layout"

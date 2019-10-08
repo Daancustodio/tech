@@ -1,11 +1,11 @@
 sap.ui.define([
-    "InventSite/src/app/BaseController",
+    "TechSite/src/app/BaseController",
     "sap/ui/model/json/JSONModel",
     "sap/ui/Device",
     "sap/m/MessageToast",
     "sap/m/MessageBox",
     "sap/ui/core/BusyIndicator",
-    "InventSite/model/formatter",
+    "TechSite/model/formatter",
     'sap/ui/model/Filter',
     "sap/ui/model/resource/ResourceModel"
 ],
@@ -13,7 +13,7 @@ sap.ui.define([
 function (BaseController, JSONModel, Device, MessageToast, MessageBox, BusyIndicator, formatter, Filter,ResourceModel) {
     "use strict";
 
-    return BaseController.extend("InventSite.src.pages.settings.Edit", {
+    return BaseController.extend("TechSite.src.pages.settings.Edit", {
 
         onInit : function () {
 

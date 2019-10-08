@@ -2,10 +2,10 @@
   "_version": "1.0.1",
   "sap.app": {
     "_version": "1.0.0",
-    "id": "InventSite",
+    "id": "TechSite",
     "type": "application",
     "i18n": "i18n/i18n.properties",
-    "title": "InventSite",
+    "title": "TechSite",
     "description": "As melhores opções de add-ons para SAP Business One",
     "applicationVersion": {
       "version": "1.0.0"
@@ -29,7 +29,7 @@
   },
   "sap.ui5": {
     "_version": "1.2.0",
-    "rootView": "InventSite.src.app.App",
+    "rootView": "TechSite.src.app.App",
     "config": {
       "serviceUrl": "webapp/model/data"
     },
@@ -55,7 +55,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "InventSite.i18n.i18n"
+          "bundleName": "TechSite.i18n.i18n"
         }
       }
     },
@@ -109,41 +109,41 @@
           "viewName": "DashBoard",
           "viewLevel": 2,
           "transition": "flip",
-          "viewPath": "InventSite.src.pages.dashboard"
+          "viewPath": "TechSite.src.pages.dashboard"
         },
         "settings": {
           "viewName": "Edit",
           "viewLevel": 3,
-          "viewPath": "InventSite.src.pages.settings",
+          "viewPath": "TechSite.src.pages.settings",
           "transition": "flip"
         },
         "login": {
           "viewName": "Login",
           "viewLevel": 3,
-          "viewPath": "InventSite.src.pages.security",
+          "viewPath": "TechSite.src.pages.security",
           "transition": "flip"
         },
         "exemplos": {
           "viewName": "CustomControls",
           "viewLevel": 3,
-          "viewPath": "InventSite.src.pages.exemplos",
+          "viewPath": "TechSite.src.pages.exemplos",
           "transition": "flip"
         },
         "app": {
           "viewName": "App",
           "viewLevel": 3,
-          "viewPath": "InventSite.src.app"
+          "viewPath": "TechSite.src.app"
         },
         "languages": {
           "viewName": "Languages",
           "viewLevel": 3,
-          "viewPath": "InventSite.src.pages.languages"
+          "viewPath": "TechSite.src.pages.languages"
         }
       }
     }
   },
 
-  "name": "InventSite",
+  "name": "TechSite",
   "short_name": "Invent",
   "start_url": "index.html",
   "display": "standalone",

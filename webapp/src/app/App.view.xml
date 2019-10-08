@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="InventSite.src.app.App"
+	controllerName="TechSite.src.app.App"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core"

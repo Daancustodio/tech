@@ -1,9 +1,9 @@
 sap.ui.define([
     "sap/m/SearchField",
-    "InventSite/model/formatter"
+    "TechSite/model/formatter"
 ], function (SearchField, formatter) {
 	"use strict";
-	return SearchField.extend("InventSite.controls.CenterCostsSearch", {
+	return SearchField.extend("TechSite.controls.CenterCostsSearch", {
 		metadata : {
             properties : {
 				dimension: 	{type : "int", defaultValue :-1}

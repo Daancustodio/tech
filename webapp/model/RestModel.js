@@ -1,7 +1,7 @@
 jQuery.sap.require("sap.ui.model.json.JSONModel");
 
 sap.ui.model.json.JSONModel.extend(
-	"InventSite.model.RestModel",
+	"TechSite.model.RestModel",
   {
 		baseUrl: "",
 		fillData : true,

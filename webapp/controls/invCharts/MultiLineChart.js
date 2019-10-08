@@ -1,10 +1,10 @@
 sap.ui.define([
   "sap/ui/core/Control",
-	"InventSite/model/formatter"
+	"TechSite/model/formatter"
 
 ], function (Control, formatter) {
 	"use strict";
-	return Control.extend("InventSite.controls.invCharts.MultiLineChart", {
+	return Control.extend("TechSite.controls.invCharts.MultiLineChart", {
 		metadata : {
             properties : {
                 title: {type : "string", defaultValue: ""},
@@ -26,7 +26,7 @@ sap.ui.define([
         },
 		init : function () {
             $.sap.includeStyleSheet("webapp/controls/invCharts/chartjs/dist/Chart.css");
-            $.sap.require("InventSite/controls/invCharts/chartjs/dist/Chart");
+            $.sap.require("TechSite/controls/invCharts/chartjs/dist/Chart");
         },
 
 		renderer : function (oRm, oControl) {

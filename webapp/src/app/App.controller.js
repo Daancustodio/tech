@@ -2,15 +2,15 @@
 
 sap.ui.define(
 	[
-		"InventSite/src/app/BaseController",
+		"TechSite/src/app/BaseController",
 		"sap/m/MessageToast",
-		"InventSite/model/RestModel",
-		"InventSite/model/formatter"
+		"TechSite/model/RestModel",
+		"TechSite/model/formatter"
 	],
 	function (BaseController, MessageToast, RestModel, formatter) {
 	"use strict";
 
-	return BaseController.extend("InventSite.src.app.App", {
+	return BaseController.extend("TechSite.src.app.App", {
 		fmt:formatter,
 		_toolPage:{},
 		onInit : function(){
@@ -51,7 +51,7 @@ sap.ui.define(
 		loggedPopOver : function(oEvent){
 
 			if (!this._oPopoverLogged) {
-			    this._oPopoverLogged = sap.ui.xmlfragment("InventSite.src.pages.security.Logged", this);
+			    this._oPopoverLogged = sap.ui.xmlfragment("TechSite.src.pages.security.Logged", this);
 			    this.getView().addDependent(this._oPopoverLogged);
 			}
 			let model = new RestModel();

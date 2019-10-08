@@ -7,9 +7,9 @@
     xmlns:card="sap.f.cards"
     xmlns:tnt="sap.tnt"
     xmlns:html="http://www.w3.org/1999/xhtml"
-    xmlns:custom="InventSite.controls"
+    xmlns:custom="TechSite.controls"
     xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
-	controllerName="InventSite.src.pages.dashboard.DashBoard">
+	controllerName="TechSite.src.pages.dashboard.DashBoard">
     <Page id="dash" showHeader="false" >
         <content>
             <VBox 

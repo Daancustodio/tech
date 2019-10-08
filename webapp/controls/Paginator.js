@@ -2,7 +2,7 @@ sap.ui.define([
     "sap/ui/core/Control",
 ], function (Control) {
 	"use strict";
-	return Control.extend("InventSite.controls.Paginator", {
+	return Control.extend("TechSite.controls.Paginator", {
 		metadata : {
             properties : {
                 tittleAllPages: {type: "string", defaultValue: "Todas a páginas"},
