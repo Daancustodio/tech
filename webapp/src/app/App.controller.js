@@ -28,9 +28,9 @@ sap.ui.define(
 			this.destroyNavigation();
 		},
 		onAfterLoginMatch(oEvent){
-			let route = oEvent.getParameter("name");
+			/* let route = oEvent.getParameter("name");
 			if(route != "login")
-				this.createNavigation();
+				this.createNavigation(); */
 		},
 
 		onLoginPopOver : function(oEvent){
