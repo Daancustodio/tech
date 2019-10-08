@@ -1,0 +1,171 @@
+<core:View
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    xmlns="sap.m"
+	height="100%"
+    xmlns:f="sap.f"
+    xmlns:card="sap.f.cards"
+    xmlns:tnt="sap.tnt"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:custom="InventSite.controls"
+    xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	controllerName="InventSite.src.pages.dashboard.DashBoard">
+    <Page id="dash" showHeader="false" >
+        <content>
+            <VBox 
+				class="box-top"	
+                height="333px"		
+				alignItems="Center" 
+				justifyContent="Center" >
+                <Image 
+                    id="imageLogo"
+                    width="15em"         
+                    src="webapp/img/images/logo.png"
+                    densityAware="true" ></Image>
+            </VBox>
+            <FlexBox				 
+                    backgroundDesign="Solid" 					
+					alignItems="Center"
+					fitContainer="false" 
+					wrap="Wrap" 
+                    class="bg-primary"
+                    alignContent="SpaceAround" 
+					justifyContent="SpaceAround"
+					
+					>
+                <f:Card
+                headerPosition="Bottom"
+					class="sapUiMediumMargin "
+					width="300px">
+                    <f:header>
+                        <card:Header
+							class=""
+							title="Geradores"
+                            iconSrc="sap-icon://energy-saving-lightbulb"
+							subtitle="" />
+                    </f:header>
+                    <f:content>
+                        <VBox
+							alignItems="Center"
+							backgroundDesign="Transparent"
+							justifyContent="SpaceBetween">
+                            <Title wrapping="true" class="sapUiMediumMargin"  text="A tech soluções energéticas trás para você, a instalação e a manutenção dos geradores elétricos, com a total inovação e especialização que nossos clientes merecem." />
+                        </VBox>
+                    </f:content>
+                </f:Card>
+                <f:Card
+                    headerPosition="Bottom"
+					class="sapUiMediumMargin "
+					width="300px">
+                    <f:header>
+                        <card:Header
+						    class=""
+                            iconSrc="sap-icon://eam-work-order"
+							title="Projetos"
+							subtitle=""/>
+                    </f:header>
+                    <f:content>
+                        <HBox
+                            backgroundDesign="Solid"
+							alignItems="Center"
+							justifyContent="SpaceBetween">
+                            <Title wrapping="true"  class="sapUiMediumMargin"  text="A Tech Soluções Energéticas é especializada também em projetos elétricos residenciais, comerciais e industriais e projetos fotovoltaicos conectados a rede para a microgeracao distribuída. Trazendo a todos os clientes garantia melhor do serviço" />
+                        </HBox>
+                    </f:content>
+                </f:Card>
+                <f:Card
+                    headerPosition="Bottom"
+					class="sapUiMediumMargin"
+					width="300px">
+                    <f:header>
+                        <card:Header
+                            iconSrc="sap-icon://e-learning"							
+							title="Cursos"
+							subtitle=""/>
+                    </f:header>
+                    <f:content>
+                        <VBox
+							 alignItems="Center"
+							justifyContent="SpaceBetween">
+                            <Title wrapping="true" class="sapUiMediumMargin"   text="O Curso de Instalador de Energia Solar - Sistema Fotovoltaico tem como objetivo formar e especializar profissionais para atuar no mercado de energia solar." />
+                        </VBox>
+                    </f:content>
+                </f:Card>
+            </FlexBox>
+            <VBox 
+				class="bg-secondary sapUiContentPadding" 
+				justifyContent="Center" 
+				alignItems="Center">
+                <tnt:InfoLabel colorScheme="1" class="sapUiSmallMargin" text="a energia solar." />
+                <html:iframe width="727" height="409" src="https://www.youtube.com/embed/IeVbIDuItfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></html:iframe>
+            </VBox>
+           
+                <VBox 
+				class="bg-primary sapUiContentPadding" 
+                justifyContent="Center" 
+				alignItems="Center">
+                <tnt:InfoLabel colorScheme="2" class="sapUiSmallMargin" text="SOBRE NÓS" />
+                </VBox>
+            <FlexBox				 
+                    backgroundDesign="Solid" 					
+					alignItems="Center"
+					fitContainer="false" 
+					wrap="Wrap" 
+                    class="bg-primary"
+                    alignContent="SpaceAround" 
+					justifyContent="SpaceAround">
+               
+                <f:Card
+                    headerPosition="Bottom"
+					class="sapUiMediumMargin "
+					width="330px">
+                    <f:header>
+                        <card:Header
+							class=""
+							title="Desde 2013, a tech soluções energéticas vem trazendo melhorias no mercado"                            
+                            subtitle="atuando na área de energia elétrica com projetos, consultoria e uma ótima execução."
+							 />
+                    </f:header>
+                    <f:content>
+                        <Image  
+                            width='330px'                         
+                            src="webapp/img/images/pic01.jpg"
+                            densityAware="true" ></Image>
+                    </f:content>
+                </f:Card>
+                <f:Card
+                    headerPosition="Bottom"
+					class="sapUiMediumMargin "
+					width="330px">
+                    <f:header>
+                        <card:Header						                                
+							title="Nos  últimos anos nós nos especializamos e buscamos inovação nos projetos"
+							subtitle="na execução, na manutenção de geradores e nas usinas solares fotovoltaicas."/>
+                    </f:header>
+                    <f:content>
+                        <Image  
+                            width='330px'                         
+                            src="webapp/img/images/pic02.jpg"
+                            densityAware="true" ></Image>
+                    </f:content>
+                </f:Card>
+                <f:Card
+                    headerPosition="Bottom"
+					class="sapUiMediumMargin"
+					width="330px">
+                    <f:header>
+                        <card:Header                            					
+							title="Nossa empresa também oferece cursos de instalador solar fotovoltaico"
+							subtitle="especializando várias pessoas a trabalharem na área da energia solar"/>
+                    </f:header>
+                    <f:content>
+                         <Image  
+                            width='330px'                         
+                            src="webapp/img/images/pic03.jpg"
+                            densityAware="true" ></Image>
+                    </f:content>
+                </f:Card>
+            </FlexBox>
+        </content>
+    </Page>
+</core:View>

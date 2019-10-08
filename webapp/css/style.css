@@ -1,0 +1,57 @@
+
+.loginBG:before {
+	content: "";
+	position: inherit;
+	z-index: -1;
+	display: block;
+	background: url("../img/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	width: 100%;
+	height: inherit;
+	overflow: hidden;
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+}
+
+.img-logo-topo{
+	filter: invert(99%);
+	filter: brightness(3.5);
+	max-height: 1.5em;
+}
+.box-top{
+	background: url("../img/images/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.toolHeader{
+	background-color: #3E4095 !important
+}
+.bg-primary{
+	background: #F2A80F !important;
+}
+.color-primary  {
+	color: #F2A80F !important	
+}
+.white-text {
+	color: aliceblue !important;	
+	font-family: monospace !important;
+	font-weight: 100 !important;
+}
+.color-secondary{
+	color: #3E4095 !important;
+}
+.bg-secondary {
+	background-color: #3E4095 !important;
+	color: #F2A80F !important
+}
+.card-01{
+	
+	background-size: cover;
+}
+.card-image{
+	background-size: cover;
+	max-height: 300px;
+}

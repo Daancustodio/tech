@@ -1,0 +1,50 @@
+<mvc:View
+	controllerName="InventSite.src.app.App"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:tnt="sap.tnt"
+	height="90%">
+		<tnt:ToolPage id="tooApplPage" sideExpanded="false">
+	<tnt:header>
+	<tnt:ToolHeader class="toolHeader">
+		<Button id="sideNavigationToggleButton"   enabled="false"   icon="sap-icon://menu2" type="Transparent"  press="onSideNavButtonPress" >
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow" />
+			</layoutData>
+		</Button>
+
+		<Image
+			class="img-logo-topo"
+			src="webapp/img/images/logo.png"
+			densityAware="false">
+		</Image>
+		<Text text="{i18n>App.Name}" wrapping="false">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Disappear" />
+			</layoutData>
+		</Text>
+		<ToolbarSpacer />
+		<Button id="userLoggedPopOver"    text="{currentUser>/UserName}" type="Transparent"  icon="sap-icon://person-placeholder"  press="onLoginPopOver">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow" />
+			</layoutData>
+		</Button>
+	</tnt:ToolHeader>
+	</tnt:header>
+	
+		<tnt:mainContents>
+			<NavContainer id="pageContainer">
+				<pages>
+					<ScrollContainer id="root1"
+									 horizontal="false"
+									 vertical="true"
+									 height="100%">
+
+									 <App id="app" />
+					</ScrollContainer>
+				</pages>
+			</NavContainer>
+		</tnt:mainContents>
+	</tnt:ToolPage>
+</mvc:View>
