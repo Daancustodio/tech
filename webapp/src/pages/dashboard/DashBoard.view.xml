@@ -34,8 +34,9 @@
 					
 					>
                 <f:Card
-                headerPosition="Bottom"
-					class="sapUiMediumMargin "
+                    headerPosition="Bottom"
+					class="sapUiTinyMargin sapUiLargeMarginTop sapUiLargeMarginBottom"
+                    height="311px"
 					width="300px">
                     <f:header>
                         <card:Header
@@ -53,9 +54,11 @@
                         </VBox>
                     </f:content>
                 </f:Card>
+
                 <f:Card
                     headerPosition="Bottom"
-					class="sapUiMediumMargin "
+                    height="311px"
+					class="sapUiTinyMargin "
 					width="300px">
                     <f:header>
                         <card:Header
@@ -73,9 +76,31 @@
                         </HBox>
                     </f:content>
                 </f:Card>
+
                 <f:Card
+                    height="311px"
                     headerPosition="Bottom"
-					class="sapUiMediumMargin"
+					class="sapUiTinyMargin"
+					width="300px">
+                    <f:header>
+                        <card:Header
+                            iconSrc="sap-icon://e-learning"							
+							title="Energia Solar"
+							subtitle=""/>
+                    </f:header>
+                    <f:content>
+                        <VBox
+							alignItems="Center"
+							justifyContent="SpaceBetween">
+                            <Title wrapping="true" class="sapUiMediumMargin"   text="Reduza em até 95% sua conta de energia elétrica pelos próximos 25 anos." />
+                        </VBox>
+                    </f:content>
+                </f:Card>
+
+                <f:Card
+                    height="311px"
+                    headerPosition="Bottom"
+					class="sapUiTinyMargin"
 					width="300px">
                     <f:header>
                         <card:Header
@@ -99,6 +124,11 @@
 				alignItems="Center">
                 <tnt:InfoLabel colorScheme="1" class="sapUiSmallMargin" text="a energia solar." />
                 <html:iframe width="768em" height="360em" src="https://www.youtube.com/embed/IeVbIDuItfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></html:iframe>
+                 <Image  
+                            width='100%'                         
+                            height="auto"
+                            src="webapp/img/images/flayer.jpg"
+                            densityAware="true" ></Image>
             </VBox>
            
                 <VBox 
@@ -145,7 +175,8 @@
                     </f:header>
                     <f:content>
                         <Image  
-                            width='330px'                         
+                            width='330px'   
+                            height='330px'
                             src="webapp/img/images/pic02.jpg"
                             densityAware="true" ></Image>
                     </f:content>
