@@ -38,6 +38,6 @@
     "@openui5/themelib_sap_belize": "^1.71.0",
     "@openui5/themelib_sap_bluecrystal": "^1.71.0",
     "@openui5/themelib_sap_fiori_3": "^1.71.0",
-    "@openui5/ts-types": "^1.60.3"    
+    "@openui5/ts-types": "^1.60.3"
   }
 }

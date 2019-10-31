@@ -50,7 +50,7 @@
 							alignItems="Center"
 							backgroundDesign="Transparent"
 							justifyContent="SpaceBetween">
-                            <Title wrapping="true" class="sapUiMediumMargin"  text="A tech soluções energéticas trás para você, a instalação e a manutenção dos geradores elétricos, com a total inovação e especialização que nossos clientes merecem." />
+                            <Title wrapping="true" textAlign="Center" class="sapUiMediumMargin"  text="A tech soluções energéticas trás para você, a instalação e a manutenção dos geradores elétricos, com a total inovação e especialização que nossos clientes merecem." />
                         </VBox>
                     </f:content>
                 </f:Card>
@@ -72,7 +72,7 @@
                             backgroundDesign="Solid"
 							alignItems="Center"
 							justifyContent="SpaceBetween">
-                            <Title wrapping="true"  class="sapUiMediumMargin"  text="A Tech Soluções Energéticas é especializada também em projetos elétricos residenciais, comerciais e industriais e projetos fotovoltaicos conectados a rede para a microgeracao distribuída. Trazendo a todos os clientes garantia melhor do serviço" />
+                            <Title wrapping="true" textAlign="Center"  class="sapUiMediumMargin"  text="A Tech Soluções Energéticas é especializada também em projetos elétricos residenciais, comerciais e industriais e projetos fotovoltaicos conectados a rede para a microgeracao distribuída. Trazendo a todos os clientes garantia melhor do serviço" />
                         </HBox>
                     </f:content>
                 </f:Card>
@@ -92,7 +92,7 @@
                         <VBox
 							alignItems="Center"
 							justifyContent="SpaceBetween">
-                            <Title wrapping="true" class="sapUiMediumMargin"   text="Reduza em até 95% sua conta de energia elétrica pelos próximos 25 anos." />
+                            <Title wrapping="true" textAlign="Center" class="sapUiMediumMargin"   text="Reduza em até 95% sua conta de energia elétrica pelos próximos 25 anos." />
                         </VBox>
                     </f:content>
                 </f:Card>
@@ -112,25 +112,24 @@
                         <VBox
 							alignItems="Center"
 							justifyContent="SpaceBetween">
-                            <Title wrapping="true" class="sapUiMediumMargin"   text="O Curso de Instalador de Energia Solar - Sistema Fotovoltaico tem como objetivo formar e especializar profissionais para atuar no mercado de energia solar." />
+                            <Title wrapping="true" textAlign="Center" class="sapUiMediumMargin"   text="O Curso de Instalador de Energia Solar - Sistema Fotovoltaico tem como objetivo formar e especializar profissionais para atuar no mercado de energia solar." />
                         </VBox>
                     </f:content>
                 </f:Card>
             </FlexBox>
-            <VBox 
-                
+            <VBox                
 				class="bg-secondary sapUiContentPadding" 
 				justifyContent="Center" 
 				alignItems="Center">
                 <tnt:InfoLabel colorScheme="1" class="sapUiSmallMargin" text="a energia solar." />
                 <html:iframe width="768em" height="360em" src="https://www.youtube.com/embed/IeVbIDuItfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></html:iframe>
                  <Image  
-                            width='100%'                         
-                            height="auto"
-                            src="webapp/img/images/manha.jpg"
-                            densityAware="true" ></Image>
-            </VBox>
-           
+                    width='100%'                         
+                    height="auto"
+                    src="webapp/img/images/manha.jpg"
+                    densityAware="true" >
+                </Image>
+            </VBox>           
                 <VBox 
 				class="bg-primary sapUiContentPadding" 
                 justifyContent="Center" 
